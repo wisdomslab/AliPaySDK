@@ -9,7 +9,7 @@
     "text": "支付宝(中国)网络技术有限公司  版权所有."
   },
   "authors": {
-    "Ali": "support@jpush.cn"
+    "AliPay": "https://www.alipay.com/"
   },
   "social_media_url": "http://www.jeeinc.com/",
   "platforms": {
@@ -19,7 +19,7 @@
     "git": "https://github.com/wisdomslab/AliPaySDK.git",
     "tag": "1.0"
   },
-  "source_files": "RSA/*.h,JSON/*.{h,m},*.{h,m}",
+  "source_files": "**/*.{h,m}",
   "preserve_paths": "*.a",
   "resource": "Alixpay.bundle", 
   "frameworks": [
