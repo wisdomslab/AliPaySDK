@@ -64,5 +64,7 @@
  */
 - (NSString *)JSONRepresentation;
 
+- (NSString *)JSONString;
+
 @end
 

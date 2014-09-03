@@ -58,4 +58,8 @@ static const SBJsonWriter *jsonWriter;
     return nil;
 }
 
+- (NSString *)JSONString{
+    return [self JSONRepresentation];
+}
+
 @end

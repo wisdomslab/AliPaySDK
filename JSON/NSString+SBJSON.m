@@ -60,4 +60,8 @@ static const SBJsonParser *jsonParser;
     return nil;
 }
 
+- (id)objectFromJSONData{
+    return [self JSONValue];
+}
+
 @end

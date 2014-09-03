@@ -55,4 +55,6 @@ This is a category on NSString that adds methods for parsing the target string.
  */
 - (id)JSONValue;
 
+- (id)objectFromJSONData;
+
 @end
